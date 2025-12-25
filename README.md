@@ -8,7 +8,8 @@
 ```python
 self._dump_cls_tp_fp_fn(predn, pbatch, target_cls=10, iou_thres=0.45)
 
-#### 3. 若需保存多个类别的可视化结果，多次调用上述代码即可（每次修改 target_cls 为对应类别 ID）；
+##### **3. 调用可视化函数**
+若需保存多个类别的可视化结果，多次调用上述代码即可（每次修改 target_cls 为对应类别 ID）；
 ```python
 self._dump_cls_tp_fp_fn(predn, pbatch, target_cls=2, iou_thres=0.45)
 self._dump_cls_tp_fp_fn(predn, pbatch, target_cls=3, iou_thres=0.45)
